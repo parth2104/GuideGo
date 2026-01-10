@@ -1,0 +1,9 @@
+  LLM:
+    OpenAI:
+      Provider: "OpenAI"
+      model_name: "gpt-5-mini-2025-08-07"
+
+    Groq:
+      provider: "Groq"
+      model_name: "llama-3.1-8b-instant"
+  
