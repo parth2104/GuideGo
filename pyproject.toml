@@ -1,0 +1,19 @@
+[project]
+name = "guidego"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.128.0",
+    "langchain>=1.2.2",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.6",
+    "langchain-groq>=1.1.1",
+    "langchain-openai>=1.1.7",
+    "langchain-tavily>=0.2.16",
+    "langgraph>=1.0.5",
+    "pyyaml>=6.0.3",
+    "streamlit>=1.52.2",
+    "uvicorn>=0.40.0",
+]
