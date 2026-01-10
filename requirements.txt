@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langchain_core
+langchain_openai
+langchain_groq
+langgraph
+fastapi
+uvicorn
+streamlit
+pyyaml
+langchain_tavily
