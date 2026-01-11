@@ -16,7 +16,7 @@ llm = ModelLoader().llm_loader()
 def get_response_from_ai_agents(model_name,model_provider,prompt,query):
         
         if model_provider =="OpenAI":
-                llm=ChatOpenAI(model=model_name,api_key=os.getenv("api_key"),openai_base_url=os.getenv("endpoint"))
+                llm=ChatOpenAI(model=model_name,api_key=os.getenv("api_key"),openai_api_base=os.getenv("endpoint"))
         elif model_provider == "Groq":
                 llm=ChatGroq(model=model_name,api_key=os.getenv("groq_api"))
         
